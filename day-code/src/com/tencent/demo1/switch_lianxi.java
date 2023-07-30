@@ -13,6 +13,10 @@ public class switch_lianxi {
             case 3 -> System.out.println("机票改签");
             default -> System.out.println("退出");
         }
+        int i;
+        for (i = 1; i < 10; i++) {
+            System.out.println(i);
+        }
 
     }
 }
