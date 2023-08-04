@@ -4,9 +4,9 @@ public class GirlFriend {
     private String name;
     private int age;
 
-    public void setAge(int n){
-        if (n>0 && n<=50){
-            age = n;
+    public void setAge(int age){
+        if (age>0 && age<=50){
+            this.age = age;
         }
 
     }
