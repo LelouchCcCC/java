@@ -65,6 +65,20 @@
 
 ---
 
-### 11.有
+### 11.有main方法的类叫做测试类，描述一类事务的类叫做Javabean类（里面有成员变量和成员方法），
+同时对于每个私有化的成员变量，都要提供set和get方法。例如：
+ ~~~java
+public void setName(String n){
+    name = n;
+}
+public String getName(){
+    return name
+}
+~~~
+
+---
+
+### 12.
+
 
 
