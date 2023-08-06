@@ -86,4 +86,8 @@ public String getName(){
 ![](.note_images/ff5d7f16.png)
 在构造之时，要写上带参的和不带参数的构造方法
 
+--- 
+
+### 14. 成员变量和局部变量的区别
+![](.note_images/78ccac22.png)
 
