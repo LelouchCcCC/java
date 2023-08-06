@@ -1,8 +1,8 @@
 package com.tencent.wordbattle;
 public class GameTest {
     public static void main(String[] args) {
-        Role r1 = new Role("张聿涵",100);
-        Role r2 = new Role("程西朋",100);
+        Role r1 = new Role("张聿涵",100,'男');
+        Role r2 = new Role("程西朋",100,'女');
         while (true){
             r1.attack(r2);
             if (r2.getBlood() == 0) {
