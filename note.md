@@ -99,4 +99,8 @@ public String getName(){
  - 通过new出来的赋值方式，在堆中创建新的空间，：
 ![](.note_images/6dcf7800.png)
 
+---
+
+### 16. String一般通过s1.equals(s2)进行判断
+
 
