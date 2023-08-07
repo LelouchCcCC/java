@@ -91,3 +91,12 @@ public String getName(){
 ### 14. 成员变量和局部变量的区别
 ![](.note_images/78ccac22.png)
 
+---
+
+### 15. String的几种定义方式在内存中的情况
+ - 直接赋值情况下会在StringTable中把该值存进去，有相同的字符串，则把地址赋值过去。
+![](.note_images/0b93de71.png)
+ - 通过new出来的赋值方式，在堆中创建新的空间，：
+![](.note_images/6dcf7800.png)
+
+
