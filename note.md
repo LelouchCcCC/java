@@ -103,4 +103,16 @@ public String getName(){
 
 ### 16. String一般通过s1.equals(s2)进行判断
 
+---
+
+### 17. 使用String Builder的场景：
+ - 字符串的拼接
+ - 字符串的反转
+![](.note_images/7f3291b4.png)
+![](.note_images/a32c9077.png)
+---
+
+### 18. StringJoiner:
+在创建时即可指定字符串的开始符号、结束符号和间隔符号
+
 
