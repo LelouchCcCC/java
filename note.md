@@ -102,6 +102,7 @@ public String getName(){
 ---
 
 ### 16. String一般通过s1.equals(s2)进行判断
+str.toCharArray()方法可以直接将字符串转换为字符数组;
 
 ---
 
