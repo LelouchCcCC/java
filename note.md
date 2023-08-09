@@ -111,9 +111,16 @@ str.toCharArray()方法可以直接将字符串转换为字符数组;
  - 字符串的反转
 ![](.note_images/7f3291b4.png)
 ![](.note_images/a32c9077.png)
+
 ---
 
 ### 18. StringJoiner:
 在创建时即可指定字符串的开始符号、结束符号和间隔符号
+
+---
+
+### 19. ArrayList集合：
+<font color='gold'>集合的范围不是固定的，可以随增删变化</font>
+![](.note_images/9da64595.png)
 
 
