@@ -123,4 +123,10 @@ str.toCharArray()方法可以直接将字符串转换为字符数组;
 <font color='gold'>集合的范围不是固定的，可以随增删变化</font>
 ![](.note_images/9da64595.png)
 
+---
+
+### 20. 静态变量是随着类的加载而加载的，优先于对象出现的
+当属性需要被当前类的所有对象共享时，需要加static
+![](.note_images/feed1161.png)
+![](.note_images/19b23133.png)
 
