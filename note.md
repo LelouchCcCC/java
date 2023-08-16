@@ -129,4 +129,16 @@ str.toCharArray()方法可以直接将字符串转换为字符数组;
 当属性需要被当前类的所有对象共享时，需要加static
 ![](.note_images/feed1161.png)
 ![](.note_images/19b23133.png)
+<font color='gold' size=30px>静态方法只能访问静态
+非静态方法可以访问所有
+静态方法中没有this关键字</font>
+（this表示的是当前方法调用者的地址值）
+
+---
+
+### 21.继承
+![](.note_images/8ef3d829.png)
+![](.note_images/0bddc346.png)
+Java只支持单继承，不能多继承，可以多层继承。
+所有的类都直接或间接继承于Object。
 
