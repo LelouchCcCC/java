@@ -5,5 +5,6 @@ public class Test {
         boou bu = new boou();
         bu.Eat();
         bu.ceng();
+        System.out.println(-3/2);
     }
 }
