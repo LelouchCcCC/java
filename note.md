@@ -143,3 +143,29 @@ Java只支持单继承，不能多继承，可以多层继承。
 所有的类都直接或间接继承于Object。
 子类只能访问父类的非私有化成员
 
+---
+
+### 22.util class
+![](.note_images/94a13e25.png)
+
+---
+
+### 23. private 默认 protected public
+![](.note_images/b710de13.png)
+
+---
+
+### 24. 静态代码块
+在程序刚开始的时候就可以执行的内容（其放在main入口之外），只执行一次
+![](.note_images/fb3e66b7.png)
+
+---
+
+### 25. abstract
+abstract类表示不想让外界产生本类的对象
+![](.note_images/9fc2aeb0.png)
+
+---
+
+### 26.XXXAdaptor
+![](.note_images/4d4d428a.png)
