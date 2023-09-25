@@ -169,3 +169,14 @@ abstract类表示不想让外界产生本类的对象
 
 ### 26.XXXAdaptor
 ![](.note_images/4d4d428a.png)
+
+---
+![](.note_images/744ef556.png)
+
+---
+
+### 27.BigInteger BigDecimal
+![](.note_images/a131a638.png)
+![](.note_images/73894c59.png)
+前者是创建了许多的32位数组存放超长数字
+后者是对每一位的ASCII码进行存储到数组中
