@@ -16,8 +16,8 @@ public class Car {
         System.out.println(name);
         System.out.println(age);
         System.out.println();
-        Engine e = new Engine(14,"mei");
-        e.show();
+//        Engine e = new Engine(14,"mei");
+//        e.show();
 
     }
 
@@ -35,9 +35,12 @@ public class Car {
 
         public void show(){
             System.out.println(age);
+            System.out.println(Car.this.age);
             System.out.println(brand);
             System.out.println(name);
             System.out.println();
+            System.out.println("----");
+            Car.this.show();
         }
     }
     public Engine getInstance(){
