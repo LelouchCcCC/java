@@ -10,5 +10,6 @@ public class Test {
         System.out.println(a==b);
         System.out.println(Runtime.getRuntime().availableProcessors());
         System.out.println(Runtime.getRuntime().maxMemory()/1024/1024);
+        System.out.println("Test");
     }
 }
