@@ -191,3 +191,8 @@ abstract类表示不想让外界产生本类的对象
 使用场景：有一个对象只需要调用一次另一个类/接口中的方法，就可以不必再写一个类，直接通过匿名函数类的方式，对其进行override重写操作
 ![](.note_images/17b10d2d.png)
 ![](.note_images/ea479931.png)
+
+---
+### 30. Iterator
+![](.note_images/f40fb497.png)
+next会自动移动指针
