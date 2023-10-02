@@ -17,7 +17,10 @@ public class LambdaDemo2 {
         Iterator<String> itor = cp.iterator();
         while (itor.hasNext()){
             String next = itor.next();
-            System.out.println(next);
+            if (next.equals("irnm4")){
+                itor.remove();
+            }
         }
+        cp.forEach(s-> System.out.println(s));
     }
 }

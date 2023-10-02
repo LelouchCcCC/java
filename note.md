@@ -193,6 +193,42 @@ abstract类表示不想让外界产生本类的对象
 ![](.note_images/ea479931.png)
 
 ---
-### 30. Iterator
+
+### 30. Collection
+![](.note_images/8eed1d31.png)
+Iterator
 ![](.note_images/f40fb497.png)
 next会自动移动指针
+删除的方法：
+![](.note_images/0c7f89e8.png)
+
+---
+
+### 31. List
+![](.note_images/94d2c190.png)
+（原因：1默认是基本数据类型int类型，而List在初始化的时候是Integer，故而JVM会选择类型一致的index删除方法，而不是object删除方法。
+
+---
+
+### 32. ArrayList
+![](.note_images/45b9bfa3.png)
+
+---
+
+### 33. Generics
+![](.note_images/949d3693.png)
+
+---
+
+### 34. HashSet 存储转变扩容原理：
+![](.note_images/dc39f4d4.png)
+Hash Set里面会有数字，链表，红黑树三种存储结构
+![](.note_images/d8b1df3a.png)
+
+---
+
+### 35. Map
+若map中已然存在该键，则在put的时候会将原本的值覆盖为新值，并返回旧值
+![](.note_images/31b13211.png)
+
+![](.note_images/21a88b0a.png)
