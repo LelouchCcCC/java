@@ -25,7 +25,6 @@ public class Test {
         for (Map.Entry<String, Integer> entry : entries) {
             System.out.println(entry.getKey()+entry.getValue());
         }
-        Math.m
 
     }
 }
